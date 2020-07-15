@@ -4,9 +4,23 @@ import './index.css';
 import App from './App';
 import * as serviceWorker from './serviceWorker';
 
+const fruits = [
+  'Lychee',
+  'Peach',
+  'Mango',
+  'Kiwi',
+  'Cranberry',
+  'Orange',
+  'Tomato',
+  'Apple',
+  'Banana',
+  'Pear',
+  'Cool Beans'
+]
+
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    <App fruits={fruits} />
   </React.StrictMode>,
   document.getElementById('root')
 );

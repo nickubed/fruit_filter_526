@@ -1,0 +1,5 @@
+Data: list of fruits
+Components = {
+    Search bar,
+    Display for list
+} 
